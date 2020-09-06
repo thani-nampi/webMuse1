@@ -1,2 +1,2 @@
 # webMuse1
-En realidad es Version Mobirise*
+En realidad es Version Mobirise v5*
