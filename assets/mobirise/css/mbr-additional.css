@@ -9,11 +9,11 @@ body {
 }
 .display-1 {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 4.6rem;
+  font-size: 5.2rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5.75rem;
+  font-size: 6.5rem;
 }
 .display-2 {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -54,14 +54,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.68rem;
+    font-size: 4.16rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.22rem;
-    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.64rem;
+    font-size: calc( 2.4699999999999998rem + (5.2 - 2.4699999999999998) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.4699999999999998rem + (5.2 - 2.4699999999999998) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -111,7 +111,7 @@ body {
   background-color: #47b5ed !important;
 }
 .bg-warning {
-  background-color: #ffe161 !important;
+  background-color: #ebc01c !important;
 }
 .bg-danger {
   background-color: #ff9966 !important;
@@ -206,25 +206,25 @@ body {
 }
 .btn-warning,
 .btn-warning:active {
-  background-color: #ffe161 !important;
-  border-color: #ffe161 !important;
-  color: #614f00 !important;
+  background-color: #ebc01c !important;
+  border-color: #ebc01c !important;
+  color: #ffffff !important;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning.focus,
 .btn-warning.active {
-  color: #2e2500 !important;
-  background-color: #ffd72e !important;
-  border-color: #ffd72e !important;
+  color: #ffffff !important;
+  background-color: #c39e11 !important;
+  border-color: #c39e11 !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-warning.disabled,
 .btn-warning:disabled {
-  color: #614f00 !important;
-  background-color: #ffd72e !important;
-  border-color: #ffd72e !important;
+  color: #ffffff !important;
+  background-color: #c39e11 !important;
+  border-color: #c39e11 !important;
 }
 .btn-danger,
 .btn-danger:active {
@@ -436,22 +436,22 @@ body {
 .btn-warning-outline:active {
   background-color: transparent !important;
   border-color: transparent;
-  color: #ffe161;
+  color: #ebc01c;
 }
 .btn-warning-outline:hover,
 .btn-warning-outline:focus,
 .btn-warning-outline.focus,
 .btn-warning-outline.active {
-  color: #ffd72e !important;
+  color: #c39e11 !important;
   background-color: transparent!important;
   border-color: transparent!important;
   box-shadow: none!important;
 }
 .btn-warning-outline.disabled,
 .btn-warning-outline:disabled {
-  color: #614f00 !important;
-  background-color: #ffe161 !important;
-  border-color: #ffe161 !important;
+  color: #ffffff !important;
+  background-color: #ebc01c !important;
+  border-color: #ebc01c !important;
 }
 .btn-danger-outline,
 .btn-danger-outline:active {
@@ -515,7 +515,7 @@ body {
   color: #47b5ed !important;
 }
 .text-warning {
-  color: #ffe161 !important;
+  color: #ebc01c !important;
 }
 .text-danger {
   color: #ff9966 !important;
@@ -549,7 +549,7 @@ a.text-info.active {
 a.text-warning:hover,
 a.text-warning:focus,
 a.text-warning.active {
-  color: #facb00 !important;
+  color: #94780d !important;
 }
 a.text-danger:hover,
 a.text-danger:focus,
@@ -592,7 +592,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
   background-color: #47b5ed;
 }
 .alert-warning {
-  background-color: #ffe161;
+  background-color: #ebc01c;
 }
 .alert-danger {
   background-color: #ff9966;
@@ -623,7 +623,7 @@ a:hover {
 }
 .mbr-plan-header.bg-warning .mbr-plan-subtitle,
 .mbr-plan-header.bg-warning .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #fcf4d7;
 }
 .mbr-plan-header.bg-danger .mbr-plan-subtitle,
 .mbr-plan-header.bg-danger .mbr-plan-price-desc {
@@ -747,11 +747,11 @@ a {
   }
 }
 .cid-s9XpKI7TJL .mbr-section-title {
-  text-align: right;
+  text-align: left;
 }
 .cid-s9XpKI7TJL .mbr-text,
 .cid-s9XpKI7TJL .mbr-section-btn {
-  text-align: right;
+  text-align: left;
 }
 .cid-s9XaA875LF {
   background-image: url("../../../assets/images/whatsapp-image-2020-09-07-at-8.21.55-pm-1200x870.jpg");
