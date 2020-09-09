@@ -60,7 +60,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "publishType": "local",
-    "publishPath": "file:///C:/Users/sandr/OneDrive/Formacion/Universidad/2020-2/Fundamentos%20de%20biodise%C3%B1o/prueba"
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
