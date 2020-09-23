@@ -62,7 +62,9 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Daniel/Desktop/P%C3%A1gina%20webmuse"
   },
   "pages": {
     "index.html": {
