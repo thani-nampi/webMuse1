@@ -62,7 +62,9 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -4944,7 +4946,7 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n<iframe width=\"560\" height=\"1000\" src=\"https://onedrive.live.com/view.aspx?resid=A5CC2362EF006CCC!2322&ithint=file%2cpptx&authkey=!AL-ukLcuIn4IV2I&loop=0&autoplay=0\" frameborder=\"0\" allowfullscreen></iframe>\n   \n</iframe>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n<iframe width=\"560\" height=\"315\" src=\"https://onedrive.live.com/view.aspx?resid=A5CC2362EF006CCC!2322&ithint=file%2cpptx&authkey=!AL-ukLcuIn4IV2I&loop=0&autoplay=0\" frameborder=\"0\" allowfullscreen></iframe>\n   \n</iframe>\n</section>",
           "_cid": "sbnHjm1VUD",
           "_anchor": "custom-html-5x",
           "_protectedParams": [],
