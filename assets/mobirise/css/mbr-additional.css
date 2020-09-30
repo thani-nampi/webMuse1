@@ -4042,7 +4042,7 @@ a {
 .cid-sc6euCO4Eh {
 @fullScreen: false;
 @fullWidth: false;
-@paddingTop: 5;
+@paddingTop: 7;
 @paddingBottom: 2;
 @textWidth: 10;
 @showTitle: true;
@@ -4071,17 +4071,6 @@ a {
 }
 .mbr-section-title {
   color: #a0a0a0;
-}
-}
-
-.cid-sc67raa5AH {
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.mbr-section {
-  text-align: center;
-  color: #fff;
 }
 }
 
@@ -4126,6 +4115,17 @@ img {
 }
 }
 
+.cid-sc67raa5AH {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
+}
+}
+
 .cid-sbhLb8kgDH {
 @fullScreen: false;
 @fullWidth: true;
@@ -4166,7 +4166,7 @@ img {
 @fullScreen: false;
 @fullWidth: false;
 @paddingTop: 2;
-@paddingBottom: 6;
+@paddingBottom: 4;
 @textWidth: 10;
 @showText: false;
 @uname__15: "../../app/themes/mobirise5/components/image3/../_images/background1.jpg";
@@ -4200,6 +4200,61 @@ img {
 }
 img {
   width: 100%;
+}
+}
+
+.cid-sc6mR09xN3 {
+@fullWidth: false;
+@paddingTop: 3;
+@paddingBottom: 5;
+@textWidth: 10;
+@showTitle: false;
+@stylizedCounters: true;
+@mark: true;
+@countersType: "default";
+@iconColor: #6592e6;
+@bgColor: #f5edff;
+
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+background-color: @bgColor;
+.counter-container {
+  ul {
+    margin-bottom: 0;
+    li {
+      margin-bottom: 1rem;
+      & when (@stylizedCounters) {
+        list-style: none;
+        position: relative;
+        padding-left: 1rem;
+        &:before {
+          position: absolute;
+          left: -40px;
+          content: '';
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: contrast(@iconColor);
+          background-color: @iconColor;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          margin-top: 5px;
+          & when (@countersType = 'circle') {
+            background: none;
+            border: 1px solid @iconColor;
+            color: @iconColor;
+          }
+          & when (@countersType = 'square') {
+            border-radius: 0;
+          }
+          & when (@mark) {
+            content: '✓';
+          }
+        }
+      }
+    }
+  }
 }
 }
 
