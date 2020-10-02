@@ -4844,6 +4844,25 @@ a.nav-link {
     padding: 2rem;
   }
 }
+.cid-schX04g401 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-schX04g401 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-schX04g401 .row {
+  flex-direction: row-reverse;
+}
+.cid-schX04g401 img {
+  width: 100%;
+}
+.cid-schX04g401 .mbr-description {
+  color: #4479d9;
+}
 .cid-sc1gAw3s6E {
   padding-top: 5rem;
   padding-bottom: 0rem;
