@@ -4282,10 +4282,10 @@ background-color: @bgColor;
 @menuItems: 0;
 @socialItems: 0;
 @reveal: false;
-@uname__10: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
+@uname__10: "file:///C:/Users/sandr/OneDrive/Formacion/Universidad/2020-2/Fundamentos%20de%20biodise%C3%B1o/webMobirise/assets/images/pucp-upch-logos.svg";
 @uname__11: false;
 @uname__12: #9fdbf8;
-@bg-value: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
+@bg-value: "file:///C:/Users/sandr/OneDrive/Formacion/Universidad/2020-2/Fundamentos%20de%20biodise%C3%B1o/webMobirise/assets/images/pucp-upch-logos.svg";
 @bg-type: "image";
 @bg-color-value: #9fdbf8;
 @bg-parallax: false;
@@ -4780,25 +4780,29 @@ a.nav-link {
   padding-bottom: 3rem;
   background-color: #ffffff;
 }
-.cid-sc1preAIXV {
-  padding-top: 4rem;
-  padding-bottom: 5rem;
+.cid-schR2rNKZm {
   background-color: #ffffff;
 }
-@media (max-width: 991px) {
-  .cid-sc1preAIXV .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-sc1preAIXV .row {
+.cid-schR2rNKZm .row {
   flex-direction: row-reverse;
 }
-.cid-sc1preAIXV img {
+@media (max-width: 991px) {
+  .cid-schR2rNKZm .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+.cid-schR2rNKZm .image-wrapper img {
   width: 100%;
+  object-fit: cover;
 }
 @media (min-width: 992px) {
-  .cid-sc1preAIXV .text-wrapper {
-    padding: 2rem;
+  .cid-schR2rNKZm .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .cid-schR2rNKZm .text-wrapper {
+    margin-bottom: 2rem;
   }
 }
 .cid-sc1eeenaiA {
