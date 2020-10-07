@@ -4778,71 +4778,58 @@ a.nav-link {
 .cid-sc1dUBTUIK {
   padding-top: 5rem;
   padding-bottom: 3rem;
-  background-color: #ffffff;
+  background-color: #e6c63b;
 }
-.cid-schR2rNKZm {
-  background-color: #ffffff;
+.cid-sc1dUBTUIK .mbr-section-title {
+  color: #ffffff;
 }
-.cid-schR2rNKZm .row {
-  flex-direction: row-reverse;
-}
-@media (max-width: 991px) {
-  .cid-schR2rNKZm .image-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-schR2rNKZm .image-wrapper img {
-  width: 100%;
-  object-fit: cover;
-}
-@media (min-width: 992px) {
-  .cid-schR2rNKZm .text-wrapper {
-    padding: 0 2rem;
-  }
-}
-@media (max-width: 768px) {
-  .cid-schR2rNKZm .text-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-sc1eeenaiA {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-sc1eeenaiA .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-sc1eeenaiA img {
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .cid-sc1eeenaiA .text-wrapper {
-    padding: 2rem;
-  }
-}
-.cid-sc1edQJy5N {
-  padding-top: 4rem;
+.cid-scHoMvhbvi {
+  padding-top: 3rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
-  .cid-sc1edQJy5N .image-wrapper {
+  .cid-scHoMvhbvi .image-wrapper {
     margin-bottom: 1rem;
   }
 }
-.cid-sc1edQJy5N .row {
+.cid-scHoMvhbvi .row {
   flex-direction: row-reverse;
 }
-.cid-sc1edQJy5N img {
+.cid-scHoMvhbvi img {
   width: 100%;
 }
-@media (min-width: 992px) {
-  .cid-sc1edQJy5N .text-wrapper {
-    padding: 2rem;
+.cid-scHr6D3vqL {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-scHr6D3vqL .image-wrapper {
+    margin-bottom: 1rem;
   }
+}
+.cid-scHr6D3vqL .row {
+  flex-direction: row-reverse;
+}
+.cid-scHr6D3vqL img {
+  width: 100%;
+}
+.cid-scHsho142Z {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-scHsho142Z .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-scHsho142Z .row {
+  flex-direction: row-reverse;
+}
+.cid-scHsho142Z img {
+  width: 100%;
 }
 .cid-schX04g401 {
   padding-top: 6rem;
@@ -5292,8 +5279,8 @@ a.nav-link {
   }
 }
 .cid-scGvefa814 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -5306,6 +5293,14 @@ a.nav-link {
 }
 .cid-scGvefa814 img {
   width: 100%;
+}
+.cid-scHlW0faB5 {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-scHlW0faB5 .mbr-text {
+  color: #bbbbbb;
 }
 .cid-scGvdDdMDP {
   padding-top: 6rem;
