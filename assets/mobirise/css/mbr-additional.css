@@ -3227,8 +3227,6 @@ a {
   }
 }
 .cid-sc33oEe6K9 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
   background-color: #ffffff;
 }
 @media (max-width: 991px) {
@@ -4047,7 +4045,7 @@ a {
 @textWidth: 10;
 @showTitle: true;
 @showSubtitle: false;
-@showButtons: false;
+@showButtons: true;
 @uname__15: "../../app/themes/mobirise5/components/content4/../_images/background1.jpg";
 @uname__16: false;
 @uname__17: #f5edff;
