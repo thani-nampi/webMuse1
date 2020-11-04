@@ -556,6 +556,11 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
 .mbr-section-btn a.btn:not(.btn-form) {
   border-radius: 100px;
 }
+.mbr-section-btn a.btn:not(.btn-form):hover,
+.mbr-section-btn a.btn:not(.btn-form):focus {
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+  -webkit-box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+}
 .mbr-gallery-filter li a {
   border-radius: 100px !important;
 }
@@ -4233,10 +4238,10 @@ background-color: @bgColor;
 @menuItems: 0;
 @socialItems: 0;
 @reveal: false;
-@uname__10: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
+@uname__10: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
 @uname__11: false;
 @uname__12: #9fdbf8;
-@bg-value: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
+@bg-value: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
 @bg-type: "image";
 @bg-color-value: #9fdbf8;
 @bg-parallax: false;
@@ -6253,7 +6258,7 @@ img {
 @paddingBottom: 6;
 @showTitle: true;
 @showText: false;
-@uname__15: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/background12.jpg";
+@uname__15: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/background12.jpg";
 @uname__16: true;
 @uname__17: #fbaf54;
 @bg-value: #fbaf54;
@@ -6621,7 +6626,7 @@ padding-bottom: (@paddingBottom * 1rem);
 @paddingBottom: 6;
 @showTitle: true;
 @showText: false;
-@uname__15: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/background12.jpg";
+@uname__15: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/background12.jpg";
 @uname__16: true;
 @uname__17: #a962c0;
 @bg-value: #a962c0;
@@ -6695,7 +6700,7 @@ img {
 @paddingBottom: 6;
 @showTitle: true;
 @showText: false;
-@uname__15: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/background12.jpg";
+@uname__15: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/background12.jpg";
 @uname__16: true;
 @uname__17: #ffe161;
 @bg-value: #ffe161;
@@ -6743,10 +6748,10 @@ background-color: @bgColor;
 @menuItems: 0;
 @socialItems: 0;
 @reveal: false;
-@uname__10: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
+@uname__10: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
 @uname__11: false;
 @uname__12: #9fdbf8;
-@bg-value: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
+@bg-value: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
 @bg-type: "image";
 @bg-color-value: #9fdbf8;
 @bg-parallax: false;
@@ -10740,10 +10745,10 @@ a.nav-link {
 @menuItems: 0;
 @socialItems: 0;
 @reveal: false;
-@uname__10: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
+@uname__10: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
 @uname__11: false;
 @uname__12: #9fdbf8;
-@bg-value: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
+@bg-value: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/pucp-upch-logos.svg";
 @bg-type: "image";
 @bg-color-value: #9fdbf8;
 @bg-parallax: false;
