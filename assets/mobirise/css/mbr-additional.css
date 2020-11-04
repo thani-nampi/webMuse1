@@ -9816,6 +9816,133 @@ a.nav-link {
 }
 }
 
+.cid-sfoXN7vV36 {
+@fullWidth: true;
+@paddingTop: 1;
+@paddingBottom: 0;
+@cardsWidth: "4";
+@showTitle: false;
+@showSubtitle: false;
+@autoSize: false;
+@imageHeight: 3;
+@spacing: false;
+@showCardTitle: false;
+@showCardSubtitle: false;
+@showText: true;
+@showButtons: false;
+@cardsBg: #dddddd;
+@uname__11: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/background3.jpg";
+@uname__12: #dddddd;
+@bg-value: #dddddd;
+@bg-type: "color";
+@bg-color-value: #dddddd;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #fafafa;
+@overlayOpacity: 0.1;
+
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+  & when (@overlay) {
+    .mbr-overlay {
+      background: @overlayColor;
+      opacity: @overlayOpacity;
+    }
+  }
+}
+img, .item-img {
+  & when (@autoSize) {
+    height: 100%;
+    object-fit: cover;
+    & when (@showCardTitle) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+    & when (@showCardSubtitle) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+    & when (@showText) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+    & when (@showButtons) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+  }
+}
+.item:focus, span:focus {
+  outline: none;
+}
+.item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+& when not (@spacing) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .item {
+    padding: 0;
+    margin: 0;
+  }
+}
+.item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: @cardsBg;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  @media (min-width: 992px) {
+    & when (@showButtons) {
+      .item-content {
+        padding: 2rem 2rem 0;
+      }
+      .item-footer {
+        padding: 0 2rem 2rem;
+      }
+    }
+    & when not (@showButtons) {
+      .item-content {
+        padding: 2rem;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    & when (@showButtons) {
+      .item-content {
+        padding: 1rem 1rem 0;
+      }
+      .item-footer {
+        padding: 0 1rem 1rem;
+      }
+    }
+    & when not (@showButtons) {
+      .item-content {
+        padding: 1rem;
+      }
+    }
+  }
+}
+.mbr-section-btn {
+  margin-top: auto !important;
+}
+.mbr-section-title {
+  color: #232323;
+}
+.mbr-text, .mbr-section-btn {
+  text-align: center;
+}
+}
+
 .cid-sfoLC2mWjx {
 @fullScreen: false;
 @fullWidth: true;
@@ -9937,7 +10064,7 @@ img {
 }
 
 .cid-sflAaZhDEu {
-@idGallery: "sfoQj9r4ar";
+@idGallery: "sfoVLomm0i";
 @fullWidth: false;
 @paddingTop: 6;
 @paddingBottom: 6;
