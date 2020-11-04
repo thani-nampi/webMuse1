@@ -10106,7 +10106,7 @@ a.nav-link {
 @isScrollToTopButton: true;
 @isPublish: true;
 
-.cid-sflIKEEof7 {
+.cid-sfoFLkaqEe {
 @fullScreen: false;
 @fullWidth: true;
 @paddingTop: 6;
@@ -10144,7 +10144,7 @@ a.nav-link {
 }
 }
 
-.cid-sflR0bvvLJ {
+.cid-sfoG2ERxBF {
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
@@ -10155,176 +10155,7 @@ background-color: @bgColor;
 }
 }
 
-.cid-sflLz2D32H {
-@fullScreen: false;
-@fullWidth: false;
-@paddingTop: 6;
-@paddingBottom: 6;
-@textWidth: 10;
-@showText: true;
-@uname__15: "../../app/themes/mobirise5/components/image3/../_images/background1.jpg";
-@uname__16: false;
-@uname__17: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #ffffff;
-@overlayOpacity: 0.7;
-
-& when not (@fullScreen) {
-  padding-top: (@paddingTop * 1rem);
-  padding-bottom: (@paddingBottom * 1rem);
-}
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-@media (max-width: 991px) {
-  .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.row {
-  flex-direction: row-reverse;
-}
-img {
-  width: 100%;
-}
-.mbr-description {
-  color: #4c70a1;
-}
-}
-
-.cid-sflLLHk5AC {
-@fullWidth: false;
-@paddingTop: 6;
-@paddingBottom: 6;
-@cardsWidth: "6";
-@showTitle: true;
-@showSubtitle: false;
-@autoSize: false;
-@imageHeight: 3;
-@spacing: false;
-@showCardTitle: false;
-@showCardSubtitle: false;
-@showText: false;
-@showButtons: false;
-@cardsBg: #fafafa;
-@uname__11: "../../app/themes/mobirise5/components/gallery1/../_images/background3.jpg";
-@uname__12: #e2ecfa;
-@bg-value: #e2ecfa;
-@bg-type: "color";
-@bg-color-value: #e2ecfa;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #fafafa;
-@overlayOpacity: 0.1;
-
-padding-top: (@paddingTop * 1rem);
-padding-bottom: (@paddingBottom * 1rem);
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-  & when (@overlay) {
-    .mbr-overlay {
-      background: @overlayColor;
-      opacity: @overlayOpacity;
-    }
-  }
-}
-img, .item-img {
-  width: 100%;
-  & when (@autoSize) {
-    height: 100%;
-    object-fit: cover;
-    & when (@showCardTitle) {
-      height: (@imageHeight * 100px);
-      object-fit: cover;
-    }
-    & when (@showCardSubtitle) {
-      height: (@imageHeight * 100px);
-      object-fit: cover;
-    }
-    & when (@showText) {
-      height: (@imageHeight * 100px);
-      object-fit: cover;
-    }
-    & when (@showButtons) {
-      height: (@imageHeight * 100px);
-      object-fit: cover;
-    }
-  }
-}
-.item:focus, span:focus {
-  outline: none;
-}
-.item {
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-& when not (@spacing) {
-  .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .item {
-    padding: 0;
-    margin: 0;
-  }
-}
-.item-wrapper {
-  position: relative;
-  border-radius: 4px;
-  background: @cardsBg;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  @media (min-width: 992px) {
-    & when (@showButtons) {
-      .item-content {
-        padding: 2rem 2rem 0;
-      }
-      .item-footer {
-        padding: 0 2rem 2rem;
-      }
-    }
-    & when not (@showButtons) {
-      .item-content {
-        padding: 2rem;
-      }
-    }
-  }
-  @media (max-width: 991px) {
-    & when (@showButtons) {
-      .item-content {
-        padding: 1rem 1rem 0;
-      }
-      .item-footer {
-        padding: 0 1rem 1rem;
-      }
-    }
-    & when not (@showButtons) {
-      .item-content {
-        padding: 1rem;
-      }
-    }
-  }
-}
-.mbr-section-btn {
-  margin-top: auto !important;
-}
-.mbr-section-title {
-  color: #4c70a1;
-}
-}
-
-.cid-sflIKG5I2s {
+.cid-sfoFLkMNI1 {
 @fullWidth: true;
 @showLogo: true;
 @logoSize: 3;
@@ -10733,7 +10564,176 @@ a.nav-link {
 }
 }
 
-.cid-sflIKLarGE {
+.cid-sfoG3WvURq {
+@fullScreen: false;
+@fullWidth: false;
+@paddingTop: 6;
+@paddingBottom: 6;
+@textWidth: 10;
+@showText: true;
+@uname__15: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/background1.jpg";
+@uname__16: false;
+@uname__17: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.7;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+@media (max-width: 991px) {
+  .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.row {
+  flex-direction: row-reverse;
+}
+img {
+  width: 100%;
+}
+.mbr-description {
+  color: #4c70a1;
+}
+}
+
+.cid-sfoG4FxS64 {
+@fullWidth: false;
+@paddingTop: 6;
+@paddingBottom: 6;
+@cardsWidth: "6";
+@showTitle: true;
+@showSubtitle: false;
+@autoSize: false;
+@imageHeight: 3;
+@spacing: false;
+@showCardTitle: false;
+@showCardSubtitle: false;
+@showText: false;
+@showButtons: false;
+@cardsBg: #fafafa;
+@uname__11: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/background3.jpg";
+@uname__12: #e2ecfa;
+@bg-value: #e2ecfa;
+@bg-type: "color";
+@bg-color-value: #e2ecfa;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #fafafa;
+@overlayOpacity: 0.1;
+
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+  & when (@overlay) {
+    .mbr-overlay {
+      background: @overlayColor;
+      opacity: @overlayOpacity;
+    }
+  }
+}
+img, .item-img {
+  width: 100%;
+  & when (@autoSize) {
+    height: 100%;
+    object-fit: cover;
+    & when (@showCardTitle) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+    & when (@showCardSubtitle) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+    & when (@showText) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+    & when (@showButtons) {
+      height: (@imageHeight * 100px);
+      object-fit: cover;
+    }
+  }
+}
+.item:focus, span:focus {
+  outline: none;
+}
+.item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+& when not (@spacing) {
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .item {
+    padding: 0;
+    margin: 0;
+  }
+}
+.item-wrapper {
+  position: relative;
+  border-radius: 4px;
+  background: @cardsBg;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  @media (min-width: 992px) {
+    & when (@showButtons) {
+      .item-content {
+        padding: 2rem 2rem 0;
+      }
+      .item-footer {
+        padding: 0 2rem 2rem;
+      }
+    }
+    & when not (@showButtons) {
+      .item-content {
+        padding: 2rem;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    & when (@showButtons) {
+      .item-content {
+        padding: 1rem 1rem 0;
+      }
+      .item-footer {
+        padding: 0 1rem 1rem;
+      }
+    }
+    & when not (@showButtons) {
+      .item-content {
+        padding: 1rem;
+      }
+    }
+  }
+}
+.mbr-section-btn {
+  margin-top: auto !important;
+}
+.mbr-section-title {
+  color: #4c70a1;
+}
+}
+
+.cid-sfoFLoaIUW {
 @fullWidth: false;
 @paddingTop: 6;
 @paddingBottom: 0;
