@@ -9943,7 +9943,7 @@ img, .item-img {
 }
 }
 
-.cid-sfoLC2mWjx {
+.cid-sfhXX1Kh33 {
 @fullScreen: false;
 @fullWidth: true;
 @paddingTop: 6;
@@ -9954,7 +9954,7 @@ img, .item-img {
 @showSubitle: false;
 @showText: false;
 @showButtons: false;
-@uname__15: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/background6.jpg";
+@uname__15: "../../app/themes/mobirise5/components/header6/../_images/background6.jpg";
 @uname__16: false;
 @uname__17: #8caff0;
 @bg-value: #8caff0;
@@ -9976,16 +9976,16 @@ img, .item-img {
   background-color: @bg-value;
 }
 .mbr-section-title {
-  text-align: center;
+  text-align: right;
   color: #ffffff;
 }
 }
 
-.cid-sfoLSc40Mh {
+.cid-sfinVhKKIm {
 @fullScreen: false;
 @fullWidth: true;
-@paddingTop: 3;
-@paddingBottom: 3;
+@paddingTop: 6;
+@paddingBottom: 6;
 @textWidth: 10;
 @showText: true;
 @uname__15: "../../app/themes/mobirise5/components/image3/../_images/background1.jpg";
@@ -10020,14 +10020,225 @@ img, .item-img {
 img {
   width: 100%;
 }
+.mbr-description {
+  color: #4c70a1;
+}
 }
 
-.cid-sfoMLpTOPZ {
+.cid-sfp2o484h3 {
 @fullScreen: false;
 @fullWidth: true;
-@paddingTop: 4;
-@paddingBottom: 4;
-@textWidth: 7;
+@paddingTop: 6;
+@paddingBottom: 1;
+@textWidth: 12;
+@contentAlign: "";
+@showTitle: true;
+@showSubitle: false;
+@showText: false;
+@showButtons: false;
+@uname__15: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/background6.jpg";
+@uname__16: false;
+@uname__17: #8caff0;
+@bg-value: #8caff0;
+@bg-type: "color";
+@bg-color-value: #8caff0;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #4479d9;
+@overlayOpacity: 0.2;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+.mbr-section-title {
+  text-align: right;
+  color: #ffffff;
+}
+}
+
+.cid-sfp4iqXBm1 {
+@fullScreen: false;
+@fullWidth: false;
+@paddingTop: 5;
+@paddingBottom: 2;
+@textWidth: 10;
+@showTitle: true;
+@showSubtitle: false;
+@showButtons: false;
+@uname__15: "../../app/themes/mobirise5/components/content4/../_images/background1.jpg";
+@uname__16: false;
+@uname__17: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.7;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+}
+
+.cid-sfp49tvsaH {
+@sliderId: "sfp4Qqzqfx";
+@fullWidth: true;
+@carouselHeight: 8;
+@paddingTop: 2;
+@paddingBottom: 3;
+@textWidth: 10;
+@fade: false;
+@autoplay: false;
+@interval: 5;
+@showCaption: true;
+@showText: true;
+@overlaySlide: false;
+@overlaySlideColor: #232323;
+@overlaySlideOpacity: 0.6;
+@bgColor: #ffffff;
+
+padding-top: (@paddingTop * 1rem);
+padding-bottom: (@paddingBottom * 1rem);
+background-color: @bgColor;
+.mbr-overlay {
+  z-index: 1;
+}
+@media (min-width: 992px) {
+  .carousel {
+    min-height: (@carouselHeight * 100px);
+    img {
+      max-height: (@carouselHeight * 100px);
+      object-fit: contain;
+    }
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .carousel {
+    min-height: (@carouselHeight * 65px);
+    img {
+      max-height: (@carouselHeight * 65px);
+      object-fit: contain;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .carousel {
+    min-height: (@carouselHeight * 55px);
+    img {
+      max-height: (@carouselHeight * 55px);
+      object-fit: contain;
+    }
+  }
+  .container .carousel-control {
+    margin-bottom: 0;
+  }
+  .content-slider-wrap {
+    width: 100% !important;
+  }
+}
+.carousel, .carousel-inner {
+  display: flex;
+  align-items: center;
+}
+.item-wrapper {
+  width: 100%;
+}
+.carousel-caption {
+  bottom: 40px;
+}
+.carousel-control:hover {
+  background: #1b1b1b;
+  color: #fff;
+  opacity: 1;
+}
+.mobi-mbri-arrow-next {
+  margin-left: 5px;
+}
+.mobi-mbri-arrow-prev {
+  margin-right: 5px;
+}
+.container .carousel-indicators {
+  margin-bottom: 3px;
+}
+.carousel-control {
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  margin-top: -1.5rem;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  transition: all 0.3s;
+  &.carousel-control-prev {
+    left: 0;
+    margin-left: 2.5rem;
+  }
+  &.carousel-control-next {
+    right: 0;
+    margin-right: 2.5rem;
+  }
+  @media (max-width: 767px) {
+    top: auto;
+    bottom: 1rem;
+  }
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 1.5rem !important;
+  li {
+    max-width: 15px;
+    height: 15px;
+    width: 15px;
+    max-height: 15px;
+    margin: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: all 0.3s;
+    &.active, &:hover {
+      opacity: 0.9;
+    }
+    &::after, &::before {
+      content: none;
+    }
+  }
+  &.ie-fix {
+    left: 50%;
+    display: block;
+    width: 60%;
+    margin-left: -30%;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    display: none !important;
+  }
+}
+}
+
+.cid-sflFDEAoHo {
+@fullScreen: false;
+@fullWidth: false;
+@paddingTop: 6;
+@paddingBottom: 6;
+@textWidth: 10;
 @showText: true;
 @uname__15: "../../app/themes/mobirise5/components/image3/../_images/background1.jpg";
 @uname__16: false;
@@ -10060,6 +10271,10 @@ img {
 }
 img {
   width: 100%;
+}
+.mbr-description {
+  color: #4c70a1;
+  text-align: center;
 }
 }
 
@@ -10360,52 +10575,7 @@ H3 {
 }
 }
 
-.cid-sflFDEAoHo {
-@fullScreen: false;
-@fullWidth: false;
-@paddingTop: 6;
-@paddingBottom: 6;
-@textWidth: 10;
-@showText: true;
-@uname__15: "../../app/themes/mobirise5/components/image3/../_images/background1.jpg";
-@uname__16: false;
-@uname__17: #ffffff;
-@bg-value: #ffffff;
-@bg-type: "color";
-@bg-color-value: #ffffff;
-@bg-parallax: false;
-@overlay: true;
-@overlayColor: #ffffff;
-@overlayOpacity: 0.7;
-
-& when not (@fullScreen) {
-  padding-top: (@paddingTop * 1rem);
-  padding-bottom: (@paddingBottom * 1rem);
-}
-& when (@bg-type = 'color') {
-  background-color: @bg-value;
-}
-& when (@bg-type = 'image') {
-  background-image: url(../../../@bg-value);
-}
-@media (max-width: 991px) {
-  .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.row {
-  flex-direction: row-reverse;
-}
-img {
-  width: 100%;
-}
-.mbr-description {
-  color: #4c70a1;
-  text-align: center;
-}
-}
-
-.cid-sfhXX1Kh33 {
+.cid-sfoLC2mWjx {
 @fullScreen: false;
 @fullWidth: true;
 @paddingTop: 6;
@@ -10416,7 +10586,7 @@ img {
 @showSubitle: false;
 @showText: false;
 @showButtons: false;
-@uname__15: "../../app/themes/mobirise5/components/header6/../_images/background6.jpg";
+@uname__15: "file:///C:/Users/Daniel/PycharmProjects/webMuse1/assets/images/background6.jpg";
 @uname__16: false;
 @uname__17: #8caff0;
 @bg-value: #8caff0;
@@ -10438,16 +10608,16 @@ img {
   background-color: @bg-value;
 }
 .mbr-section-title {
-  text-align: left;
+  text-align: center;
   color: #ffffff;
 }
 }
 
-.cid-sfinVhKKIm {
+.cid-sfoLSc40Mh {
 @fullScreen: false;
 @fullWidth: true;
-@paddingTop: 6;
-@paddingBottom: 6;
+@paddingTop: 3;
+@paddingBottom: 3;
 @textWidth: 10;
 @showText: true;
 @uname__15: "../../app/themes/mobirise5/components/image3/../_images/background1.jpg";
@@ -10482,8 +10652,46 @@ img {
 img {
   width: 100%;
 }
-.mbr-description {
-  color: #4c70a1;
+}
+
+.cid-sfoMLpTOPZ {
+@fullScreen: false;
+@fullWidth: true;
+@paddingTop: 4;
+@paddingBottom: 4;
+@textWidth: 7;
+@showText: true;
+@uname__15: "../../app/themes/mobirise5/components/image3/../_images/background1.jpg";
+@uname__16: false;
+@uname__17: #ffffff;
+@bg-value: #ffffff;
+@bg-type: "color";
+@bg-color-value: #ffffff;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.7;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+@media (max-width: 991px) {
+  .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.row {
+  flex-direction: row-reverse;
+}
+img {
+  width: 100%;
 }
 }
 
