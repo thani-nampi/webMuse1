@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "semana06.html",
+    "currentPage": "semana08_patronaje.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -11947,7 +11947,7 @@
         }
       ]
     },
-    "page13.html": {
+    "semana08_patronaje.html": {
       "settings": {
         "title": "Semana 08 || Patronaje",
         "order": 13,
