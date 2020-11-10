@@ -10840,7 +10840,7 @@ padding-bottom: (@paddingBottom * 1rem);
   padding-bottom: 2rem;
 }
 .cid-sfViDnBgXa .item-wrapper {
-  height: 300px;
+  height: 100%;
   position: relative;
 }
 .cid-sfViDnBgXa .item-wrapper img {
