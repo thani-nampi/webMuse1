@@ -11481,21 +11481,14 @@ padding-bottom: (@paddingBottom * 1rem);
   text-align: center;
   color: #ffffff;
 }
-.cid-sfVlcsw6Q5 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.cid-sfZnBdp8kl {
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #fbd283;
 }
-@media (max-width: 991px) {
-  .cid-sfVlcsw6Q5 .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-sfVlcsw6Q5 .row {
-  flex-direction: row-reverse;
-}
-.cid-sfVlcsw6Q5 img {
-  width: 100%;
+.cid-sfZnBdp8kl .mbr-section {
+  text-align: center;
+  color: #fff;
 }
 .cid-sfYlvdNZ24 {
   padding-top: 5rem;
