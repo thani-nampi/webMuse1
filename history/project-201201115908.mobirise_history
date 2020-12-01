@@ -30,13 +30,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
-        "#3fe44c",
         "#545775",
         "#bde4a8",
         "#564787",
         "#c8f5fc",
         "#ebc01c",
-        "#bb86fc"
+        "#bb86fc",
+        "#191919"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 655,
+    "uniqCompNum": 651,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -16709,55 +16709,13 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n  <iframe src=https://create.arduino.cc/editor/daniel4512/8138d709-c39c-43c0-a312-14b411b5a25d/preview?embed style=\"height:510px;width:100%;margin:10px 0\" frameborder=0></iframe>\n</section>",
-          "_cid": "shWklYfaNq",
-          "_anchor": "custom-html-i4",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n<div class=\"gatsby-highlight\" data-language=\"c\"><pre class=\"language-c\"><code class=\"language-c\"><span class=\"token keyword\">void</span> <span class=\"token function\">setup</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span>\n<span class=\"token punctuation\">{</span>\n\n  <span class=\"token function\">pinMode</span><span class=\"token punctuation\">(</span>ledPin<span class=\"token punctuation\">,</span> OUTPUT<span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span>      <span class=\"token comment\">// sets the digital pin as output</span>\n<span class=\"token punctuation\">}</span></code></pre></div>\n  \n</section>",
+          "_cid": "shWgCyV3DS",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n   <iframe src=https://create.arduino.cc/editor/daniel4512/648d5384-1aa9-414c-b8fa-c6211cb50fbf/preview?embed style=\"height:510px;width:100%;margin:10px 0\" frameborder=0></iframe>\n</section>",
-          "_cid": "shWkVuVOwh",
-          "_anchor": "custom-html-i5",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n   <iframe src=https://create.arduino.cc/editor/daniel4512/eb82dc42-c1d8-4088-aa8a-98a8f1950aac/preview?embed style=\"height:510px;width:100%;margin:10px 0\" frameborder=0></iframe>\n</section>",
-          "_cid": "shWmVhMBrF",
-          "_anchor": "custom-html-i6",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "custom-html-i2"
         },
         {
           "alias": false,

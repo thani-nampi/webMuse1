@@ -53,7 +53,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 655,
+    "uniqCompNum": 653,
     "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -16711,49 +16711,57 @@
           "_name": "custom-html",
           "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n  <iframe src=https://create.arduino.cc/editor/daniel4512/8138d709-c39c-43c0-a312-14b411b5a25d/preview?embed style=\"height:510px;width:100%;margin:10px 0\" frameborder=0></iframe>\n</section>",
           "_cid": "shWklYfaNq",
-          "_anchor": "custom-html-i4",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "custom-html-i4"
         },
         {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
+          "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card .card-header": {
+              "background-color": "transparent",
+              "margin-bottom": "0"
+            },
+            ".panel-title": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between"
+            },
+            ".mbr-iconfont": {
+              "padding-left": "1rem",
+              "font-family": "'Moririse2' !important",
+              "font-size": "1.4rem !important",
+              "color": "@primaryColor"
+            },
+            ".panel-body, .card-header": {
+              "padding": "1rem 0"
+            },
+            ".panel-title-edit": {
+              "color": "#3fe44c"
+            },
+            "H3": {
+              "color": "#ffffff"
+            },
+            ".panel-text": {
+              "color": "#3fe44c"
             }
           },
-          "_name": "custom-html",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n   <iframe src=https://create.arduino.cc/editor/daniel4512/648d5384-1aa9-414c-b8fa-c6211cb50fbf/preview?embed style=\"height:510px;width:100%;margin:10px 0\" frameborder=0></iframe>\n</section>",
-          "_cid": "shWkVuVOwh",
-          "_anchor": "custom-html-i5",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n   <iframe src=https://create.arduino.cc/editor/daniel4512/eb82dc42-c1d8-4088-aa8a-98a8f1950aac/preview?embed style=\"height:510px;width:100%;margin:10px 0\" frameborder=0></iframe>\n</section>",
-          "_cid": "shWmVhMBrF",
-          "_anchor": "custom-html-i6",
+          "_name": "content17",
+          "_customHTML": "<section class=\"content17\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\">5</option>\n             <option value=\"6\" selected>6</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        \n            <div class=\"row justify-content-center\">\n                <div class=\"col-12 col-md-{{textWidth}}\">\n                    <div class=\"section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                        <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                            <b>Código Final Funcional</b></h3>\n                        <h4 class=\"mbr-section-subtitle mt-2 mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                            Subtitle</h4>\n                    </div>\n                    \n                    <div id=\"bootstrap-toggle\" class=\"toggle-panel accordionStyles tab-content\">\n                        <div class=\"card mb-3\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><span style=\"font-size: 20.8px;\"><b>Código</b></span><b>&nbsp;de Bioimpedancia en Arduino</b></h6>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"><i><b>El código para medir el porcentaje de grasa a través de la bioimpedancia compilo y funciono en la simulación en Proteus.</b><br></i><br>#include \"Wire.h\"\n<br>#define button 2\n<br>#define SLAVE_ADDR 0x0D\n<br>#define ADDR_PTR 0xB0\n<br>\n<br>#define START_FREQ_R1 0x82\n<br>#define START_FREQ_R2 0x83\n<br>#define START_FREQ_R3 0x84\n<br>\n<br>#define FREG_INCRE_R1 0x85\n<br>#define FREG_INCRE_R2 0x86\n<br>#define FREG_INCRE_R3 0x87\n<br>\n<br>#define NUM_INCRE_R1 0x88\n<br>#define NUM_INCRE_R2 0x89\n<br>\n<br>#define NUM_SCYCLES_R1 0x8A \n<br>#define NUM_SCYCLES_R2 0x8B \n<br>\n<br>#define RE_DATA_R1 0x94\n<br>#define RE_DATA_R2 0x95\n<br>\n<br>#define IMG_DATA_R1 0x96\n<br>#define IMG_DATA_R2 0x97\n<br>\n<br>#define TEMP_R1 0x92\n<br>#define TEMP_R2 0x93\n<br>\n<br>#define CTRL_REG 0x80\n<br>#define CTRL_REG2 0x81\n<br>\n<br>#define STATUS_REG 0x8F\n<br>\n<br>const float pesoPaciente; \n<br>const float MCLK = 16.776*pow(10,6); // AD5933 Internal Clock Speed 16.776 MHz\n<br>const float start_freq = 1*pow(10,3); // Set start freq, &lt; 100Khz\n<br>const float incre_freq = 1*pow(10,3); // Set freq increment\n<br>const int incre_num = 99; // Set number of increments; &lt; 511\n<br>\n<br>char state; \n<br>\n<br>void setup() {\n<br>\tWire.begin();\n<br>\tSerial.begin(115200);\n<br>\tpinMode(button, INPUT); \t\n<br>\n<br>\t//nop - clear ctrl-reg\n<br>\twriteData(CTRL_REG,0x0);\n<br>\n<br>\t//reset ctrl register\n<br>\twriteData(CTRL_REG2,0x10);\t\n<br>\n<br>\tprogramReg();\n<br>}\n<br>\n<br>\n<br>void loop(){\n<br>\n<br>\t//Read state and enter FSM\n<br>  \tif(Serial.available()&gt;0) {\n<br>  \t\tstate = Serial.read();\n<br>\n<br>  \t\t//FSM\n<br>  \t\tswitch(state) {\n<br>  \t\t\tcase 'A':  //Program Registers\n<br>  \t\t\t\tprogramReg();\n<br>  \t\t\t\tbreak;\n<br>\n<br>  \t\t\tcase 'B':  //Measure Temperature\n<br>  \t\t\t\tmeasureTemperature();\n<br>  \t\t\t\tbreak;\n<br>\n<br>  \t\t\tcase 'C':\n<br>  \t\t\t\trunSweep();\n<br>  \t\t\t\tdelay(1000);\n<br>  \t\t\t\tbreak;\n<br>\n<br>  \t\t/////Programming Device Registers/////\n<br>\n<br>\n<br>  \t\t}\n<br>\n<br>  \t\tSerial.flush();\n<br>  \t}\n<br>\n<br>}\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>void programReg(){\n<br>\n<br>\t// Set Range 1, PGA gain 1\n<br>\twriteData(CTRL_REG,0x01);\n<br>\n<br>\t// Set settling cycles\n<br>\twriteData(NUM_SCYCLES_R1, 0x07);\n<br>\twriteData(NUM_SCYCLES_R2, 0xFF);\n<br>\n<br>\t// Start frequency of 1kHz\n<br>\twriteData(START_FREQ_R1, getFrequency(start_freq,1));\n<br>\twriteData(START_FREQ_R2, getFrequency(start_freq,2));\n<br>\twriteData(START_FREQ_R3, getFrequency(start_freq,3));\n<br>\n<br>\t// Increment by 1 kHz\n<br>\twriteData(FREG_INCRE_R1, getFrequency(incre_freq,1)); \n<br>\twriteData(FREG_INCRE_R2, getFrequency(incre_freq,2)); \n<br>\twriteData(FREG_INCRE_R3, getFrequency(incre_freq,3));\n<br>\n<br>\t// Points in frequency sweep (100), max 511\n<br>\twriteData(NUM_INCRE_R1, (incre_num &amp; 0x001F00)&gt;&gt;0x08 );\n<br>\twriteData(NUM_INCRE_R2, (incre_num &amp; 0x0000FF));\n<br>\n<br>}\n<br>\n<br>\n<br>void runSweep() {\n<br>\tshort re;\n<br>\tshort img;\n<br>\tdouble freq;\n<br>\tdouble mag;\n<br>\tdouble phase;\n<br>\tdouble gain;\n<br>\tdouble impedance;\n<br>\tint i=0;\n<br>\n<br>\tprogramReg();\n<br>\n<br>\t// 1. Standby '10110000' Mask D8-10 of avoid tampering with gains\n<br>\twriteData(CTRL_REG,(readData(CTRL_REG) &amp; 0x07) | 0xB0);\n<br>\n<br>\t// 2. Initialize sweep\n<br>\twriteData(CTRL_REG,(readData(CTRL_REG) &amp; 0x07) | 0x10);\n<br>\n<br>\t// 3. Start sweep\n<br>\twriteData(CTRL_REG,(readData(CTRL_REG) &amp; 0x07) | 0x20);\t\n<br>\n<br>\n<br>\twhile((readData(STATUS_REG) &amp; 0x07) &lt; 4 ) {  // Check that status reg != 4, sweep not complete\n<br>\t\tdelay(100); // delay between measurements\n<br>\n<br>\t\tint flag = readData(STATUS_REG)&amp; 2;\n<br>\n<br>\n<br>\t\tif (flag==2) {\n<br>\n<br>\t\t\tbyte R1 = readData(RE_DATA_R1);\n<br>\t\t\tbyte R2 = readData(RE_DATA_R2);\n<br>\t\t\tre = (R1 &lt;&lt; 8) | R2;\n<br>\n<br>\t\t\tR1  = readData(IMG_DATA_R1);\n<br>\t\t\tR2  = readData(IMG_DATA_R2);\n<br>\t\t\timg = (R1 &lt;&lt; 8) | R2;\n<br>\n<br>\t\t\tfreq = start_freq + i*incre_freq;\n<br>\t\t\tmag = sqrt(pow(double(re),2)+pow(double(img),2));\n<br>float fat = (1/(mag * 1000)) * 0.85 +3.04; \n<br>float fatPer = (fat/pesoPaciente) * 100; // el 70 es valor referencia \n<br>\t\t\t// phase = atan(double(img)/double(re));\n<br>\t\t\t// phase = (180.0/3.1415926)*phase;  //convert phase angle to degrees\n<br>\n<br>\t\t\t// Phase Calibration\n<br>\t\t\t// sys_phase = 118;\n<br>\t\t\t// phase = phase - sys_phase;\n<br>\n<br>\t\t\t// gain = (1.0/197760)/9786.98;\n<br>\t  //   \timpedance = 1/(gain*mag);\n<br>\t    \t\n<br>\t\t\tSerial.print(\"Frequency: \");\n<br>\t\t\tSerial.print(freq/1000);\n<br>\t\t\tSerial.print(\",kHz;\");\n<br>\n<br>\t\t\tSerial.print(\" Magnitude: \");\n<br>\t\t\tSerial.print(mag);\n<br>\t\t\tSerial.print(\",kOhm;\");\n<br>\n<br>\t\t\tSerial.print(\" Resistance: \");\n<br>\t\t\tSerial.print(re);\n<br>\t\t\tSerial.print(\",\");\n<br>\n<br>\t\t\tSerial.print(\" Reactance: \");\n<br>\t\t\tSerial.print(img);\n<br>\t\t\tSerial.println(\",\");\n<br>\n<br>      Serial.print(\"Grasa Corporal: \");\n<br>      Serial.print(fat);\n<br>\n<br>      Serial.print (\"Porcenta Grasa: \");\n<br>      Serial.print (fatPer);\n<br>\n<br>\t\t\t// break;  //TODO: for single run, remove after debugging\n<br>\t\t\t\n<br>\t\t\t//Increment frequency\n<br>\t\t\tif((readData(STATUS_REG) &amp; 0x07) &lt; 4 ){\n<br>\t\t\t\twriteData(CTRL_REG,(readData(CTRL_REG) &amp; 0x07) | 0x30);\n<br>\t\t\t\ti++;\n<br>\t\t\t}\n<br>\n<br>\t\t}\n<br>\t}\n<br>\n<br>\n<br>\t//Power down\n<br>//\twriteData(CTRL_REG,0xA0);\n<br>\twriteData(CTRL_REG,(readData(CTRL_REG) &amp; 0x07) | 0xA0);\n<br>}\n<br>\n<br>\n<br>\n<br>void writeData(int addr, int data) {\n<br>\n<br> Wire.beginTransmission(SLAVE_ADDR);\n<br> Wire.write(addr);\n<br> Wire.write(data);\n<br> Wire.endTransmission();\n<br> delay(1);\n<br>}\n<br>\n<br>\n<br>int readData(int addr){\n<br>\tint data;\n<br>\n<br>\tWire.beginTransmission(SLAVE_ADDR);\n<br>\tWire.write(ADDR_PTR);\n<br>\tWire.write(addr);\n<br>\tWire.endTransmission();\n<br>\n<br>\tdelay(1);\n<br>\n<br>\tWire.requestFrom(SLAVE_ADDR,1);\n<br>\n<br>\tif (Wire.available() &gt;= 1){\n<br>\t\tdata = Wire.read();\n<br>\t}\n<br>\telse {\n<br>\t\tdata = -1;\n<br>\t}\n<br>\n<br>\tdelay(1);\n<br>\treturn data;\t\n<br>}\n<br>\n<br>\n<br>\n<br>\n<br>boolean measureTemperature() {\n<br>  \n<br>\t// Measure temperature '10010000'\n<br>\twriteData(CTRL_REG, 0x90);\n<br>\t//TODO: necessary to write to second control register?\n<br>\n<br>\tdelay(10); // wait for 10 ms\n<br>\n<br>\t\n<br>\n<br>\t//Check status reg for temp measurement available\n<br>\tint flag = readData(STATUS_REG)&amp; 1;\n<br>\n<br>  if (flag == 1) {\n<br>\n<br>\n<br>    // Temperature is available\n<br>    int temperatureData = readData(TEMP_R1) &lt;&lt; 8;\n<br>    temperatureData |= readData(TEMP_R2);\n<br>    temperatureData &amp;= 0x3FFF; // remove first two bits\n<br>    \n<br>    if (temperatureData &amp; 0x2000 == 1) { // negative temperature\n<br>      \n<br>      temperatureData -= 0x4000;\n<br>    }\n<br>    \n<br>    double val = double(temperatureData) / 32;\n<br>    temperatureData /= 32;\n<br>    \n<br>    Serial.print(\"Temperature: \");\n<br>    Serial.print(val);\n<br>    //Serial.write(176);  //degree sign\n<br>    Serial.println(\"C.\");\n<br>    \n<br>\n<br>    // Power Down '10100000'\n<br>    writeData(CTRL_REG,0xA0);\n<br>\n<br>    \n<br>    return true;\n<br>\n<br>  } else {\n<br>    return false;\n<br>  }\n<br>}\n<br>\n<br>\n<br>byte getFrequency(float freq, int n){\n<br>\tlong val = long((freq/(MCLK/4)) * pow(2,27));\n<br>\tbyte code;\n<br>\n<br>\t  switch (n) {\n<br>\t    case 1:\n<br>\t      code = (val &amp; 0xFF0000) &gt;&gt; 0x10; \n<br>\t      break;\n<br>\t    \n<br>\t    case 2:\n<br>\t      code = (val &amp; 0x00FF00) &gt;&gt; 0x08;\n<br>\t      break;\n<br>\n<br>\t    case 3:\n<br>\t      code = (val &amp; 0x0000FF);\n<br>\t      break;\n<br>\n<br>\t    default: \n<br>\t      code = 0;\n<br>\t  }\n<br>\n<br>\treturn code;  \n<br>}<br></p>\n</div></div></div></div></div></div></div></section>",
+          "_anchor": "content17-i3",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise5",
+          "_cid": "shWhMOWwVJ",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
