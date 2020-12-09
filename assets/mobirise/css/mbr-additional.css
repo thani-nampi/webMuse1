@@ -13776,7 +13776,7 @@ a.nav-link {
 @fullWidth: false;
 @paddingTop: 0;
 @paddingBottom: 1;
-@bgColor: #121212;
+@bgColor: #2c4551;
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
@@ -13813,8 +13813,8 @@ background-color: @bgColor;
 @fullScreen: false;
 @fullWidth: false;
 @paddingTop: 0;
-@paddingBottom: 1;
-@bgColor: #121212;
+@paddingBottom: 4;
+@bgColor: #2c4551;
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
@@ -13836,7 +13836,109 @@ background-color: @bgColor;
 }
 }
 
+.cid-siDMiEadso {
+@fullScreen: false;
+@fullWidth: true;
+@paddingTop: 1;
+@paddingBottom: 1;
+@textWidth: 12;
+@contentAlign: "";
+@showTitle: false;
+@showSubitle: false;
+@showText: false;
+@showButtons: false;
+@uname__15: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/background7.jpg";
+@uname__16: true;
+@uname__17: #2c4551;
+@bg-value: #2c4551;
+@bg-type: "color";
+@bg-color-value: #2c4551;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.8;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+@media (max-width: 991px) {
+  .mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text {
+    text-align: center;
+  }
+}
+.mbr-section-title {
+  color: #fafafa;
+  text-align: center;
+}
+}
+
 .cid-siDFDCPhYN {
+
+padding-top: (@paddingTop * 15px);
+padding-bottom: (@paddingBottom * 15px);
+background-color: @bgColor;
+.mbr-section {
+  text-align: center;
+  color: #fff;
+}
+}
+
+.cid-siDMkJhLN0 {
+@fullScreen: false;
+@fullWidth: true;
+@paddingTop: 1;
+@paddingBottom: 1;
+@textWidth: 12;
+@contentAlign: "";
+@showTitle: false;
+@showSubitle: false;
+@showText: false;
+@showButtons: false;
+@uname__15: "file:///C:/Users/usuario/PycharmProjects/webMuse1/assets/images/background7.jpg";
+@uname__16: true;
+@uname__17: #2c4551;
+@bg-value: #2c4551;
+@bg-type: "color";
+@bg-color-value: #2c4551;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #ffffff;
+@overlayOpacity: 0.8;
+
+& when not (@fullScreen) {
+  padding-top: (@paddingTop * 1rem);
+  padding-bottom: (@paddingBottom * 1rem);
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+@media (max-width: 991px) {
+  .mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text {
+    text-align: center;
+  }
+}
+.mbr-section-title {
+  color: #fafafa;
+  text-align: center;
+}
+}
+
+.cid-siDKtlUMRU {
+@fullScreen: false;
+@fullWidth: false;
+@paddingTop: 0;
+@paddingBottom: 1;
+@bgColor: #121212;
 
 padding-top: (@paddingTop * 15px);
 padding-bottom: (@paddingBottom * 15px);
